@@ -9,15 +9,15 @@
      <link rel="shortcut icon" href="https://images.icon-icons.com/1182/PNG/512/1490129319-rounded09_82169.png" type="image/x-icon">
 </head>
 <body>
-    <nav class="w-full bg-black p-2 flex justify-between items-center border-b-2 border-white">
+    <nav class="w-full bg-black p-2 flex justify-between items-center border-b-1 border-white">
         <div>
             <img src="https://images.icon-icons.com/1182/PNG/512/1490129319-rounded09_82169.png" width="50px" alt="">
             <h1 class="text-white">Mr black</h1>
         </div>
             <ul class="flex gap-6">
-                <li class="text-white text-lg">Home</li>
-                <li class="text-white text-lg">About</li>
-                <li class="text-white text-lg">Contact</li>
+                <li class="text-white text-lg hover:underline cursor-pointer">Home</li>
+                <li class="text-white text-lg hover:underline cursor-pointer">About</li>
+                <li class="text-white text-lg hover:underline cursor-pointer">Contact</li>
             </ul>
             <d class="flex gap-4">
                 <ion-icon name="search-outline" class="text-white text-2xl"></ion-icon>
@@ -25,11 +25,19 @@
             </div>
     </nav>
         <div class="w-full grid grid-cols-2 gap-4 bg-black">
-            <div class="flex items-center justify-center">
-                <h1 class="text-white">dfghj</h1>
+            <div class="flex flex-col items-center justify-center">
+                <h1 class="text-yellow-300 text-sm font-thin">NEW COLLECTION</h1>
+                <h1 class="text-white text-6xl"><b>Elavate Your</b></h1>
+                <h1 class="text-yellow-500 text-6xl"><b>Every Day</b></h1>
+                <p class="text-white font-thin pt-2">Discover premium products designed for style,</p>
+                <p class="text-white font-thin">quality,and perfomance.</p>
+                <div class="flex gap-4 p-3">
+                   <button class="border p-2 bg-yellow-400 rounded-xl flex justify-center items-center gap-2">shop Now <ion-icon name="arrow-forward-outline"></ion-icon></button>
+                   <button class="border p-2 text-white rounded-xl hover:bg-yellow-400 hover:text-black">Explore more</button>
+                </div>
             </div>
             <div class="flex items-center justify-center">
-                <img src="./images/hero.png" alt="">
+                <img src="./images/hero.png" alt="" class="drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">
             </div>
         </div>
 
